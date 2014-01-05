@@ -1,0 +1,91 @@
+{
+    "name": "miyuki",
+    "repositories": [
+        {
+            "type": "pear",
+            "url": "http://pear.cakephp.org"
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "hiromi2424/secured",
+                "version": "2.0",
+                "source": {
+                    "url": "https://github.com/hiromi2424/secured.git",
+                    "type": "git",
+                    "reference": "2.0"
+                },
+                "type": "cakephp-plugin"
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "hiromi2424/collectionable",
+                "version": "2",
+                "source": {
+                    "url": "https://github.com/hiromi2424/Collectionable.git",
+                    "type": "git",
+                    "reference": "cake2"
+                },
+                "type": "cakephp-plugin"
+            }
+        },
+        {
+            "type": "package",
+            "package": {
+                "name": "hiromi2424/TransitionComponent",
+                "version": "2",
+                "source": {
+                    "url": "https://github.com/hiromi2424/TransitionComponent.git",
+                    "type": "git",
+                    "reference": "cake2"
+                },
+                "type": "cakephp-plugin"
+            }
+        },
+		{
+            "type": "package",
+            "package": {
+                "name": "cakedc/search",
+                "version": "1.1.1",
+                "source": {
+                    "url": "https://github.com/CakeDC/search.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "type": "cakephp-plugin"
+            }
+        },
+		{
+            "type": "package",
+            "package": {
+                "name": "gsatoru/upload_pack",
+                "version": "0.6.2",
+                "source": {
+                    "url": "https://github.com/gsatoru/upload_pack.git",
+                    "type": "git",
+                    "reference": "master"
+                },
+                "type": "cakephp-plugin"
+            }
+        }
+    ],
+    "require": {
+        "pear-cakephp/cakephp": "2.4.2",
+        "hiromi2424/secured": "2.0",
+        "hiromi2424/collectionable": "2",
+        "hiromi2424/TransitionComponent": "2",
+        "cakedc/search": "1.1.1",
+        "gsatoru/upload_pack": "*",
+        "slywalker/boost_cake": "1.0.3",
+        "fusic/filebinder": "2.3.6",
+        "cakedc/migrations": "2.2.3"
+    },
+    "require-dev": {
+        "cakephp/debug_kit": "2.2.*@dev"
+    },
+    "config": {
+        "vendor-dir": "Vendor/"
+    }
+}
